@@ -3,6 +3,7 @@ h1 {
 }
 
 .bentoBox {
+    display: grid;
     grid-row: 5;
     grid-column: 5;
 }
