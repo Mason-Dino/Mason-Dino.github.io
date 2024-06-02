@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="navBar">Cool</div>
+    <div class="navBar" id="navBar">Cool</div>
     <div class="welcome">
         <h1 class="mukta-medium">Hi i'm Mason!</h1>
     </div>
@@ -27,4 +27,18 @@
     </div>
     -->
 </body>
+<script>
+    window.onscroll = function() {myFunction()};
+
+    var navbar = document.getElementById("navBar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    }
+</script>
 </html>
