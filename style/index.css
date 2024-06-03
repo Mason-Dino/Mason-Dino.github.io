@@ -4,11 +4,12 @@
     --azure-web: #cddddd;
     --bright-pink-crayola: #ed6e85;
     --cardinal: #bb2532;
+    --navBar-height: 5vh
 }
 
 
 body {
-    background-color: var(--space-cadet);
+    background-color: var(--azure-web);
     margin: 0px;
 }
 
@@ -26,8 +27,15 @@ img {
     height: 70vh;
 }
 
+.welcomeText {
+    margin-bottom: 5px;
+    margin-top: var(--navBar-height);
+    font-size: 30px; 
+    height: 34px;
+}
+
 .navBar {
-    height: 5vh;
+    height: var(--navBar-height);
     background-color: var(--cerulean);
 }
 
