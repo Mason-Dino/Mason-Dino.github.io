@@ -4,5 +4,20 @@
     --azure-web: #cddddd;
     --bright-pink-crayola: #ed6e85;
     --cardinal: #bb2532;
-    --navBar-height: 5vh
+    --navBar-height: 7vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+    overflow: hidden;
+}
+
+.computerBody {
+    width: 450px;
+    height: 279px;
+    border-radius: 35px;
+    background-color: #A8BABA;
 }
