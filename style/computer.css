@@ -97,3 +97,13 @@ body {
     border-radius: 20px;
     background-color: #ABABAB;
 }
+
+@media all and (max-width: 500px) {
+    .computerBody {
+        width: 85%;
+    }
+
+    .computerScreen {
+        width: 87%;
+    }
+}
