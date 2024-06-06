@@ -106,4 +106,12 @@ body {
     .computerScreen {
         width: 87%;
     }
+
+    .window {
+        width: 90%;
+    }
+
+    .windowTopBar {
+        width: 96.25%;
+    }
 }
