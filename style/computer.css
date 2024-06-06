@@ -52,7 +52,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 0px;
-    gap: 18px;
+    gap: 12px;
 }
 
 .windowTopBar {
@@ -95,6 +95,17 @@ body {
     height: 5px;
     border-radius: 20px;
     background-color: #ABABAB;
+}
+
+.aboutButton {
+    width: 25%;
+    height: 20px;
+
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: var(--space-cadet);
+    color: var(--azure-web);
+    border: none;
 }
 
 @media all and (max-width: 500px) {
