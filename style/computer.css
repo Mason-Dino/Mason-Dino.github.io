@@ -128,13 +128,19 @@ body {
     .textWindow {
         width: 90%;
     }
+
+    .aboutButton {
+        width: 35%;
+    }
 }
 
 @media all and (max-width: 300px) {
-    
-
     .realText {
         font-size: 20px;
         height: 25px;
+    }
+
+    .aboutButton {
+        width: 50%;
     }
 }
