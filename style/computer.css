@@ -42,6 +42,19 @@ body {
     justify-content: center;
 }
 
+.computerScreenNoWin {
+    width: 396px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: #007991;
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+    justify-content: right;
+}
+
 .window {
     width: 350px;
     height: 180px;
@@ -116,12 +129,39 @@ body {
     border: none;
 }
 
+.launchIconNo {
+    display: none;
+}
+
+.launchIconYes {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #ED6E85;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    top: 10%;
+    right: 5%;
+}
+
+.icon {
+    color: #222E50;
+}
+
 @media all and (max-width: 500px) {
     .computerBody {
         width: 85%;
     }
 
     .computerScreen {
+        width: 87%;
+    }
+
+    .computerScreenNoWin {
         width: 87%;
     }
 
