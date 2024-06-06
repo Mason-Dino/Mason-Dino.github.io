@@ -30,9 +30,26 @@ img {
 }
 
 .navBar {
-    width: 100%;
+    width: calc(100% - 30px);
     height: var(--navBar-height);
     background-color: var(--cerulean);
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-left: 30px;
+}
+
+.LogoText {
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: var(--navBar-height);
+
+    color: var(--space-cadet);
 }
 
 .bottom {
