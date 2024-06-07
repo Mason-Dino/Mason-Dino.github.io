@@ -30,14 +30,44 @@ img {
 }
 
 .navBar {
-    width: calc(100% - 30px);
+    width: 100%;
     height: var(--navBar-height);
     background-color: var(--cerulean);
 
     display: flex;
     flex-direction: row;
+    align-items: center;
+    gap: 0px;
+}
+
+.navBarParts {
+    width: 50%;
+}
+
+.navBarParts.part1 {
+    margin-left: 15px;
+    color: var(--space-cadet);
+}
+
+.navBarParts.part2 {
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    justify-content: right;
+
+    margin-right: 15px;
     gap: 10px;
-    padding-left: 30px;
+
+    color: var(--space-cadet);
+}
+
+.navBarParts.part2 h4 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+    height: var(--navBar-height);
+    display: flex;
+    align-items: center;
 }
 
 .LogoText {
@@ -45,11 +75,14 @@ img {
     margin-bottom: 0px;
 
     display: flex;
-    justify-content: center;
     align-items: center;
     height: var(--navBar-height);
 
     color: var(--space-cadet);
+}
+
+.navBarText {
+    float: right;
 }
 
 .bottom {
