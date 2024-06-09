@@ -26,3 +26,4 @@ function open() {
 
 document.getElementById("icon").addEventListener("click", open)
 document.getElementById("close").addEventListener("click", close);
+//document.getElementById("aboutB").addEventListener("click", document.getElementById("AboutMe").scrollIntoView())
