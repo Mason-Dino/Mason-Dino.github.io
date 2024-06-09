@@ -154,7 +154,7 @@ body {
 
 @media all and (max-width: 500px) {
     body {
-        gap: 100px;
+        gap: 20vh;
     }
 
     .computerBody {
