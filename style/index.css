@@ -124,7 +124,7 @@ img {
 
     position: relative;
     top: -30px;
-    left: -130px;
+    left: -25%;
 }
 
 .text {
@@ -143,49 +143,11 @@ img {
     gap: 0px;
 }
 
-.bentoBox {
-    display: grid;
-    grid-template-columns: minmax(100px, auto);
-    gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
+@media all and (max-width: 500px) {
+
 }
 
-.one {
-    grid-column: 1;
-    grid-row: 1;
-    background-color: var(--cerulean);
-}
 
-.two {
-    grid-column: 2 / 4;
-    grid-row: 1 / 3;
-    background-color: var(--cerulean);
-    opacity: 100%;
-}
-
-.three {
-    grid-column: 1;
-    grid-row: 2 / 5;
-    background-color: var(--cerulean);
-}
-
-.four {
-    grid-column: 3;
-    grid-row: 3;
-    background-color: var(--cerulean);
-}
-
-.five {
-    grid-column: 2;
-    grid-row: 4;
-    background-color: var(--cerulean);
-}
-
-.six {
-    grid-column: 3;
-    grid-row: 4;
-    background-color: var(--cerulean);
-}
 
 /* Font */ 
 .mukta-light {
