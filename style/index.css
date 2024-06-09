@@ -144,7 +144,18 @@ img {
 }
 
 @media all and (max-width: 500px) {
+    .wave {
+        display: flex;
+        flex-direction: column;
+    }
 
+    .photo {
+        width: 100%;
+    }
+
+    .text {
+        width: 100%;
+    }
 }
 
 
