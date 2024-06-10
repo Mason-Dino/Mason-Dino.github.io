@@ -1,3 +1,18 @@
+:root {
+    --space-cadet: #222e50;
+    --cerulean: #007991;
+    --azure-web: #cddddd;
+    --bright-pink-crayola: #ed6e85;
+    --cardinal: #bb2532;
+    --navBar-height: 7vh;
+}
+
+
+body {
+    background-color: var(--azure-web);
+    margin: 0px;
+}
+
 .bentoBox {
     display: grid;
     grid-template-columns: minmax(100px, auto);
