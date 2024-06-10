@@ -70,6 +70,11 @@ img {
     align-items: center;
 }
 
+.navBarParts.part2 a {
+    text-decoration: none;
+    color: var(--space-cadet);
+}
+
 .LogoText {
     margin-top: 0px;
     margin-bottom: 0px;
