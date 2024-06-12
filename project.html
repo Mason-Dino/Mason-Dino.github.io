@@ -33,12 +33,12 @@
         <div class="three"></div>
         <div class="four"></div>
         <div class="five"></div>
-        <div class="six"></div>
+        <div class="six" id="hey"></div>
     </div>
 </body>
 <script>
-    document.cookie = "username=John Doe; HttpOnly=false;";
-    
+    document.cookie = "username=John Doe; expires= "+ (365*24*60) + ";";
+    document.getElementById("hey").innerHTML = document.cookie
 
     
     console.log(document.cookie)
