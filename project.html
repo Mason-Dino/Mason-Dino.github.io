@@ -44,7 +44,7 @@
         <div class="three item">
             <div class="header">
                 <div class="h part1">Dinosaur</div>
-                <div class="h part2">
+                <div class="h part2 pointer prevent-select" id="dino" onclick="heart(this.id)">
                     <span class="material-symbols-outlined">
                         favorite
                     </span>
@@ -57,7 +57,7 @@
         <div class="four item">
             <div class="header">
                 <div class="h part1">Disecon</div>
-                <div class="h part2">
+                <div class="h part2 pointer prevent-select" id="disecon" onclick="heart(this.id)">
                     <span class="material-symbols-outlined">
                         favorite
                     </span>
@@ -70,7 +70,7 @@
         <div class="five item">
             <div class="header">
                 <div class="h part1">Fun Holiday</div>
-                <div class="h part2">
+                <div class="h part2 pointer prevent-select" id="fun" onclick="heart(this.id)">
                     <span class="material-symbols-outlined">
                         favorite
                     </span>
@@ -80,10 +80,15 @@
             <div class="imagePro"></div>
             <div class="content"></div>
         </div>
-        <div class="six item" id="hey">
+        <div class="six item">
             <div class="header">
                 <div class="h part1"></div>
-                <div class="h part2"></div>
+                <div class="h part2 pointer prevent-select" id="none" onclick="heart(this.id)">
+                    <span class="material-symbols-outlined">
+                        favorite
+                    </span>
+                    <img src="style/image/github-mark.svg" width="22px">
+                </div>
             </div>
             <div class="imagePro"></div>
             <div class="content"></div>
