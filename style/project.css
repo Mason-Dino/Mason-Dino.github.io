@@ -137,6 +137,11 @@ body {
     margin-right: 7px;
 }
 
+a {
+    display: flex;
+    align-items: center;
+}
+
 .imagePro {
     width: 100%;
 
