@@ -29,6 +29,16 @@ body {
     border-radius: 15px;
 }
 
+.pointer {
+    cursor: pointer;
+}
+
+.prevent-select {
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+}
+
 .one {
     grid-column: 1;
     grid-row: 1;
