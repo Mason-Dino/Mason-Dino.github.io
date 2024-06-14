@@ -25,6 +25,10 @@ body {
     height: 100vh;
 }
 
+.item {
+    border-radius: 15px;
+}
+
 .one {
     grid-column: 1;
     grid-row: 1;
@@ -67,6 +71,8 @@ body {
     width: 100%;
     height: 30px;
 
+    margin-top: 5px;
+
     display: flex;
     flex-direction: row;
     gap: 0px;
@@ -76,6 +82,8 @@ body {
 .h.part1 {
     width: 50%;
     height: 30px;
+
+    margin-left: 7px;
 }
 
 .h.part2 {
@@ -84,6 +92,9 @@ body {
 
     display: flex;
     flex-direction: row;
+    gap: 3px;
     justify-content: right;
     align-items: center;
+
+    margin-right: 7px;
 }
