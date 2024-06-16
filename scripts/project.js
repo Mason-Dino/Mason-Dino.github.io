@@ -8,8 +8,6 @@ if (localStorage.getItem("dino") == null) {
 function getHeart() {
     for (let i = 0; i < 4; i ++) {
         projects = ["dino", "song", "fun", "disecon"]
-
-        console.log(localStorage.getItem(projects[i]))
         
         if (localStorage.getItem(projects[i]) === "true") {
             heart(projects[i])
@@ -18,7 +16,6 @@ function getHeart() {
 }
 
 function heart(id) {
-    console.log(id)
 
     fill = "https://raw.githubusercontent.com/Mason-Dino/Mason-Dino.github.io/29bf84c156e7a54e60a314b96a38a71eb2c4ad7a/style/image/heart-fill.svg"
     nofill = "https://raw.githubusercontent.com/Mason-Dino/Mason-Dino.github.io/29bf84c156e7a54e60a314b96a38a71eb2c4ad7a/style/image/heart-nofill.svg"
@@ -27,10 +24,7 @@ function heart(id) {
         var storage = id.split("Image")
         storage = storage[0]
 
-        console.log(storage)
-
         var heart = document.getElementById(id).src
-        console.log(heart)
 
         if (heart === fill) {
             document.getElementById(id).src = nofill
@@ -45,7 +39,6 @@ function heart(id) {
 
     else {
         var heart = document.getElementById(id + "Image").src
-        console.log("hey123") 
 
         document.getElementById(id + "Image").src = fill
     }
