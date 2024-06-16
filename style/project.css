@@ -71,10 +71,6 @@ body {
     grid-row: 3;
 }
 
-.v-four {
-    background-color: var();
-}
-
 .five {
     grid-column: 3;
     grid-row: 1/3;
