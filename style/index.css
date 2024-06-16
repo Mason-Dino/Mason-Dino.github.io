@@ -152,6 +152,12 @@ a {
     text-decoration: none;
 }
 
+.socialLinks {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+}
+
 @media all and (max-width: 500px) {
     .wave {
         display: flex;
