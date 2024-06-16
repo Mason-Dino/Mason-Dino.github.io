@@ -166,3 +166,8 @@ a {
     font-size: 75%;
 }
 
+.mini-content {
+    display: flex;
+    flex-direction: row;
+}
+
