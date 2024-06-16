@@ -148,6 +148,10 @@ img {
     gap: 0px;
 }
 
+a {
+    text-decoration: none;
+}
+
 @media all and (max-width: 500px) {
     .wave {
         display: flex;
