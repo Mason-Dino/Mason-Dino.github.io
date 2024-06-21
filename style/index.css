@@ -130,6 +130,10 @@ img {
     position: relative;
     top: -30px;
     left: -25%;
+
+    background-color: var(--bright-pink-crayola);
+    padding: 5px 10px;
+    border-radius: 10px;
 }
 
 .text {
