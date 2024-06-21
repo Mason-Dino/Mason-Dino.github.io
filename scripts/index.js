@@ -24,6 +24,11 @@ function open() {
     compScreen.classList.add("computerScreen")
 }
 
+function mail() {
+    navigator.clipboard.writeText('mason.n.dinosaur@gmail.com');
+    alert("email copied!")
+}
+
 document.getElementById("icon").addEventListener("click", open)
 document.getElementById("close").addEventListener("click", close);
 //document.getElementById("aboutB").addEventListener("click", document.getElementById("AboutMe").scrollIntoView())
