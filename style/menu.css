@@ -59,8 +59,24 @@
     float: right;
 }
 
+.navBarParts.part3 {
+    display: none;
+    flex-direction: row;
+    text-align: right;
+    justify-content: right;
+
+    margin-right: 15px;
+    gap: 10px;
+
+    color: var(--space-cadet);
+}
+
 @media all and (max-width: 500px) {
     .navBarParts.part2 {
         display: none;
+    }
+
+    .navBarParts.part3 {
+        display: flex;
     }
 }
