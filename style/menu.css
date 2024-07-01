@@ -58,3 +58,9 @@
 .navBarText {
     float: right;
 }
+
+@media all and (max-width: 500px) {
+    .navBarParts.part2 {
+        display: none;
+    }
+}
