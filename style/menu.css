@@ -1,12 +1,15 @@
 .menu {
     width: 100%;
-    height: 100%;
-
+    height: 93vh;
     position: absolute;
     top: 7vh;
     left: 0px;
-
     background-color: #cddddd;
+
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    flex-direction: column;
 }
 
 .noMenu { 
@@ -15,6 +18,20 @@
 
 .yesMenu {
     display: flex;
+}
+
+.menuContent {
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    flex-direction: column;
+
+    margin-right: 30px;
+}
+
+.menuText {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .navBar {
