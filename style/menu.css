@@ -29,6 +29,11 @@
     margin-right: 30px;
 }
 
+.menuContent a {
+    text-decoration: none;
+    color: #222e50;
+}
+
 .menuText {
     margin-top: 5px;
     margin-bottom: 5px;
