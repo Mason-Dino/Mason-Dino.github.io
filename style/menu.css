@@ -1,3 +1,22 @@
+.menu {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 7vh;
+    left: 0px;
+
+    background-color: #cddddd;
+}
+
+.noMenu { 
+    display: none;
+}
+
+.yesMenu {
+    display: flex;
+}
+
 .navBar {
     width: 100%;
     height: var(--navBar-height);
