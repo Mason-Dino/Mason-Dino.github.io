@@ -8,6 +8,7 @@
 
     display: flex;
     justify-content: right;
+    align-items: right;
     text-align: right;
     flex-direction: column;
 }
@@ -22,7 +23,6 @@
 
 .menuContent {
     display: flex;
-    justify-content: right;
     text-align: right;
     flex-direction: column;
 
@@ -37,6 +37,8 @@
 .menuText {
     margin-top: 5px;
     margin-bottom: 5px;
+
+    text-align: right;
 }
 
 .navBar {

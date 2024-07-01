@@ -1,10 +1,10 @@
 menuActive = false
 
-function menu() {
+function menu(item) {
     console.log("hey")
 
     if (menuActive == false) {
-        about = document.getElementById("AboutMe")
+        about = document.getElementById(item)
         about.classList.add("noMenu")
 
         var menu = document.getElementById("menu")
@@ -18,7 +18,7 @@ function menu() {
     }
 
     else if (menuActive == true) {
-        about = document.getElementById("AboutMe")
+        about = document.getElementById(item)
         about.classList.remove("noMenu")
 
         var menu = document.getElementById("menu")
